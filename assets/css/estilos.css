@@ -1,0 +1,36 @@
+.titulo-CV{
+  padding-top: 1em ;
+  padding-bottom: 0em;
+  font-family: 'Source Code Pro', monospace;
+}
+.bajada-titulo{
+  padding-top: 0em;
+  padding-bottom: 1em;
+}
+#barra-Navegacion{
+  width: max-content;
+  color: #ffff;
+  background-color: #302f2f;
+  border-radius: 10px 0px 10px 0px;
+  padding: 0px;
+}
+
+.btn{
+  margin-top: 0px;
+  margin-right: 1px;
+  color:#ffffff ;
+  background-color: #ffffff00;
+  border-radius: 0px 0px 5px 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: solid 1px #ffffff;
+}
+#S-About-me{
+  height: 1000px;
+  background-color: #302f2f;
+}
+.titulo-about-me{
+  color: #ffffff;
+  font-size: 2em;
+}
