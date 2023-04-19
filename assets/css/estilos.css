@@ -5,6 +5,14 @@ body{
 
 #barra-Navegacion{
   background-color: #374258;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+#S-About-me{
+  margin-top: 100px;
+  background-image: url("../img/bg-perfil.png");
+  background-size: cover;
 }
 .gradient-text{
   background-image: linear-gradient(to right, #f74464, #6a7285);
@@ -17,9 +25,9 @@ body{
   box-shadow: 0px;
   border: 0px;
   color: #f3f3f3;
+  border: #f3f3f3 solid;
 }
 .card-about-me{
-
   width: 30rem;
   background-color: #374258;
   box-shadow: 0px;
@@ -28,27 +36,25 @@ body{
 }
 
 .imagen-personal{
-height: 30rem;
-}
-.text-Second{
-
+height: 100%;
 }
 
 .section-t2{
   height: 720px;
-  background-color: #c4c4c4;
+  background-color: #f3f3f3;
+  color: #f74464;
 }
 .section-t1{
   height: 720px;
   background-color: #374258;
+  color: #f3f3f3;
 }
-.text-titulo-seccion1{
-  margin-top:5rem ;
-  color: #f74464;
-  font-size: 2em;
+.btn{
+  color: #f3f3f3;
 }
-.text-titulo-seccion2{
-  margin-top:5rem;
-  color:#6a7285;
-  font-size: 2em;
+.img-perfil{
+  height: 30rem;
+}
+.contenedor-about-me{
+  width: 60%;
 }
