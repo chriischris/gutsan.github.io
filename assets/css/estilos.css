@@ -40,15 +40,18 @@ height: 100%;
 }
 
 .section-t2{
-  height: 720px;
-  background-color: #f3f3f3;
-  color: #374258;
+  /* height: 720px; */
+  background-color: #1f2738;
+  color: #f3f3f3;
   padding-top: 5rem;
+  padding-bottom: 5rem;
+  
 }
 .section-t1{
   height: 720px;
   background-color: #374258;
   color: #f3f3f3;
+  padding-top: 5rem;
 }
 .btn{
   color: #f3f3f3;
@@ -61,6 +64,7 @@ height: 100%;
 }
 .skills-container {
   margin-top: 2em;
+  margin-bottom: 2em;
   display: flex;
   overflow: hidden;
   flex-wrap: wrap;
@@ -106,4 +110,17 @@ height: 100%;
   border-left-color:#f74464;
   border-top-color:#f74464;
   border-bottom:#f74464;
+}
+
+.card-educaction{
+  background-color: transparent;
+  color: #f3f3f3;
+  text-align: justify;
+}
+
+.card-educaction .card-title{
+  color: #f74464;
+}
+.card-educaction .card-subtitle{
+  color: #f797a8;
 }
