@@ -135,6 +135,15 @@ height: 100%;
 .card-educaction .card-subtitle{
   color: #f797a8;
 }
+.Button-more{
+  all: initial;
+  color: #f74464;
+  font-size: 1.2rem;
+}
+.Button-more:hover{
+  color:#f797a8 ;
+  cursor:pointer;
+}
 .list-card-item{
   list-style-type: none;
 }
@@ -144,10 +153,14 @@ height: 100%;
 .list-card{
   padding: 0;
 }
-
+.Project-experience{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
 .img-project{
-  height: 300px;
-  width: 400px;
+  height: 20rem;
+
   object-fit: cover;
 }
 
@@ -218,3 +231,80 @@ height: 100%;
 .portf-card:hover .back{
   transform :perspective(600px)rotateY(0deg);  
 }
+.container-portf{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+footer{
+  color: #f3f3f3;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.ft-bastian{
+width: 30rem;
+padding:2rem;
+}
+.ft-bastian p{
+  text-align: justify;
+  font-style: italic;  
+}
+
+.ft-link{
+  all: initial;
+  text-align: justify;
+  font-style: normal;  
+  color: #f3f3f3;
+  font-family: 'Source Code Pro', monospace;
+}
+.ft-redes{
+  width: 30rem;
+  padding: 2rem;
+  text-align: justify;
+  font-style: normal;  
+}
+.ft-redes ul {
+  list-style-type: none;
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ft-WS:hover{
+  color: darkgreen;
+}
+.ft-ld:hover{
+  color: #0e76a8;
+  }
+.ft-tw:hover{
+    color: #00acee ;
+  }
+.ft-gh:hover{
+      color: #171515 ;
+     }
+
+  .ft-contact{
+    width: 30rem;
+    display: flex;
+    flex-direction:column;
+    padding: 2rem;
+    gap: 5px;
+  }
+  .ft-contact input{
+    padding: 1rem;
+    height: 2rem;
+    background-color: transparent;
+    color: #f3f3f3;
+    border: #f3f3f3 solid 0.5px;
+  } 
+  .ft-contact button{
+    background-color:#1f2738 ;
+    color: #f3f3f3
+  }
+  .ft-contact button:hover{
+    background-color:#f74464 ;
+    color: #f3f3f3
+  }
