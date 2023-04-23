@@ -1,5 +1,5 @@
 body{
-  background-color: #374258;
+  background-color: #f1ff2a;
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -16,7 +16,7 @@ body{
   background-size: cover;
 }
 .gradient-text{
-  background-image: linear-gradient(to right, #f74464, #6a7285);
+  background-image: linear-gradient(to right, #44f76b, #6a7285);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -239,7 +239,7 @@ justify-content: space-around;
 }
 
 footer{
-  color: #f3f3f3;
+  color: #000000;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
